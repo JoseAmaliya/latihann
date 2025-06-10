@@ -76,7 +76,7 @@ async function loadData() {
   data.forEach(row => {
     const tr = document.createElement('tr')
     tr.dataset.id = row.id
-    tr.innerHTML = `<td>${row.id}</td><td>${row.judul}</td><td>${row.isi}</td>`
+    tr.innerHTML = `<td>${row.id}</td><td>${row.Judul}</td><td>${row.Isi}</td>`
     tr.addEventListener('click', () => showForm(row))
     dataBody.appendChild(tr)
   })
